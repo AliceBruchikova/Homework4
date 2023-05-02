@@ -1,0 +1,88 @@
+.all {
+    height: 540px;
+    width: 1170px;
+    margin: 0 15px;
+}
+
+.buttons {
+    display: table-cell;
+    height: 40px;
+    width: 203px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.buttons.tab1 {    
+    border-top: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.buttons.tab2 {  
+    border-bottom: 1px solid #C6CBCD;
+}  
+
+.buttons.tab3 { 
+    border-bottom: 1px solid #C6CBCD;
+}   
+
+
+.empty {
+    display: table-cell;
+    height: 1px;
+    width: 600px;
+    border-bottom: 1px solid #C6CBCD;
+}
+
+.main {
+    height: 500px;
+    width: 1170px;
+    border-bottom: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+}
+
+.text-item {
+    display: inline-block;
+    margin: 0 0 0 100px;
+}
+
+.title {
+    width: 570px;
+    height: 124px;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.text {
+    width: 570px;
+    height: 210px;
+    font-family: "Raleway";
+    font-size: 18px;
+    margin: 27px 30px 27px 0px;
+}
+
+.button-download {
+    width: 270px;
+    height: 58px;
+    background: #EC7979; 
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.image {
+    display: inline-block;
+    float: right;
+}
